@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact-style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Want to learn more?</h3>
+          <p class="text">
+            You can send us a message or visit our social media platforms. Together we can create a cleaner environment while expressing the creativity of our imagination!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="images/location-icon.png" class="icon" alt="" />
+              <p>Gov. pack road. Baguio City. Ph</p>
+            </div>
+            <div class="information">
+              <img src="images/mail-icon.png" class="icon" alt="" />
+              <p>MindCraft.stem@gmail.com</p>
+			</div>          
+          </div>
+
+          <div class="social-media">
+            <p>Visit us on :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61573915555302" target="_blank" rel="noopener noreferrer">
+                <img src="images/facebook-icon.png" height="33" width="33" alt="facebook">
+              </a>
+              <a href="https://www.instagram.com/mindcrafts_official/?igsh=MXE3dG9sdWY3M21jNw%3D%3D&utm_source=qr&fbclid=IwY2xjawI6cvhleHRuA2FlbQIxMAABHS4NjlLkJ24gHwTo_YI9Wrcevh6nsbIQebDes-I_u89RjM5gDxJSCXKJPA_aem_tjn2g_Vi9s7gia_Gyozkvg#" target="_blank" rel="noopener noreferrer">
+                <img src="images/instagram-icon.png" height="33" width="33" alt="instagram">
+              </a>
+              <a href="https://x.com/real_mindcrafts" target="_blank" rel="noopener noreferrer">
+                <img src="images/twitter-icon.png" height="33" width="33" alt="twitter">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://formsubmit.co/Mindcraft.stem@gmail.com" method="POST" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="contact-script.js"></script>
+  </body>
+</html>
