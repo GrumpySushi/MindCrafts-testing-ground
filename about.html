@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Logo (Click to go to Home) -->
+    <a href="index.html" class="logo">
+        <img src="images/mindcraft logo.png" height="60" width="60" alt="MindCrafts Logo">
+        <img src="images/mindcraft text.png" height="60" alt="MindCrafts Text">
+    </a>
+
+    <header>
+    <h1 class="main-heading">
+        <span class="text-overlay">About</span>
+    </h1>
+        <p>Learn here about MindCrafts and Us!</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="blog.html">Blogs n' Vlogs</a> |
+            <a href="about.html">About</a> 
+            <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">&#10006;</button>
+        <button class="open-popup" onclick="openPopup()"><b>Contact</b></button>
+        <a href="survey.html">Website Survey</a>
+        <a href="uploads/upload.html" class="upload-btn">Upload Your Project</a>
+        <a href="developer-uploads.html" class="upload-btn">Project Requests</a><!-- Adjusted path -->
+    </div>
+    
+    <h2>Welcome to MindCrafts where you can polish your mind and creativity!</h2>
+    <p>We at MindCrafts feel that creativity has the potential to change the world. We're not about merely earning money – we're passionate about creating a long-lasting impression on our society and environment. We're experts at recycling what others find useless and turning it into something fresh, functional, and attractive. Through reusing garbage, we're not just cutting waste, but we're enhancing and enhancing our world as well.
+What others might view as waste, we view as untapped potential. We're proud to produce creative and sustainable products, all while considering the planet. We want to make the world a better place, one recycled product at a time. But it's not all about being green – it's about making something cool, exciting, and meaningful. We think that taking something old from garbage can also create something exceptional, such as games and experiences that can be shared by everybody.</p>
+
+   <p>Here in MindCrafts, we have our vision to: Empower a world where creativity flourishes through the sustainable recycling of waste materials.</p>
+
+    <p></p>
+    <section class="video-section">
+        <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/1dzKo4iMssyB6VsTLzVPNO51hzRVrUb4d/preview" width="640" height="360" allow="autoplay"></iframe>
+            <div class="video-caption">MindCrafts Advocacy Video</div>
+        </div>
+
+    </section>
+
+    <div class="AboutUs">
+    <h1>Meet the Team</h1>
+    <div class="ProfilesContainer">
+        <div class="team-member">
+            <img src="images/staff/Jehmar.jpg" alt="Team Member 1">
+            <h2>Cong-o,Jehmar</h2>
+            <p>Web Developer</p>
+        </div>
+        <div class="team-member">
+            <img src="images/staff/Rick.jpg" alt="Team Member 2">
+            <h2>Diaz, Rick</h2>
+            <p>Video Editor</p>
+        </div>
+        <div class="team-member">
+            <img src="images/staff/Dustin.jpg" alt="Team Member 3">
+            <h2>De Guzman, Dustin</h2>
+            <p>Web Developer</p>
+        </div>
+        <div class="team-member">
+            <img src="images/staff/Ethan.jpg" alt="Team Member 4">
+            <h2>Lumbaya, Ethan</h2>
+            <p>Team member</p>
+        </div>
+        <div class="team-member">
+            <img src="images/staff/Maricz.png" alt="Team Member 5">
+            <h2>Magdayao, Maricz</h2>
+            <p>Team member</p>
+        </div>
+        <div class="team-member">
+            <img src="images/staff/Ian.jpg" alt="Team Member 6">
+            <h2>Mayangao, Ian</h2>
+            <p>Team member</p>
+        </div>
+        <div class="team-member">
+            <img src="images/staff/Diane.jpg" alt="Team Member 7">
+            <h2>Guiam, Diane</h2>
+            <p>Team member</p>
+        </div>
+        <div class="team-member">
+            <img src="images/staff/Cherry.jpg" alt="Team Member 8">
+            <h2>Pangangat, Cherry</h2>
+            <p>Team member</p>
+        </div>
+    </div>
+</div>
+
+    <div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <iframe id="popup-iframe" src="contact.html"></iframe>
+    </div>
+</div>
+    
+<script src="footer.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
